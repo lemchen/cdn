@@ -1,0 +1,32 @@
+/* layout */
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-auto-rows: 3fr 6fr 1fr;
+    grid-template-areas: 'a b c''d d d''e f g';
+  }
+
+.logo {
+  grid-area: a;
+  padding: 1rem 0 0 1rem;
+  text-align: left;
+}
+.logo h1 {
+  position: absolute;
+  top: 0;
+}
+.footer {
+  grid-area: e;
+  text-align: left;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.footer p {
+  position: absolute;
+  bottom: 0;
+}
+
+.main {
+  grid-area: d;
+  text-align: center;
+}
