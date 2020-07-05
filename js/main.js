@@ -12,7 +12,6 @@ var init_timer = function () {
 			console.log('start!');
 		},
 		onChange: function (value) {
-			// console.log(value)
 		},
 		onStop: function () {
 			console.log('stop!');
@@ -20,7 +19,6 @@ var init_timer = function () {
 	});
 
 	countdown.change = function (value) {
-		console.log(value);
 		document.querySelectorAll('.timer')[0].innerHTML = value.day + '天' + value.hour + '时' + value.minute + '分' + value.second + '秒';
 	}
 }
