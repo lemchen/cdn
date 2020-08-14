@@ -1,7 +1,7 @@
 var init_timer = function () {	
 	var countdown = CountDown.init({
 		startTime: Date.now(),
-		endTime: '2020-08-15 09:00:00',
+		endTime: '2020-09-15 09:00:00',
 		unit: {
 			day: true,
 			hour: true,
